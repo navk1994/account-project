@@ -10,6 +10,7 @@ public class AccountSystem {
 	public void addAccount(int counter, String firstName, String secondName, String accountNumber) {
 		
 		bankAccounts.put(counter, new Account(firstName, secondName, accountNumber));
+		counter++;
 	}
 	
 	public void getAccount(int id) 
