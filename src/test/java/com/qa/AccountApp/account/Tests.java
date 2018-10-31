@@ -31,4 +31,16 @@ public class Tests {
 		assertEquals(2, counter);
 	}
 
+	@Test
+	public void findFirstNamesTestWithStreams() {
+
+		int counter = 0;
+
+		bankAccounts.put(0, new Account("John", "Bishop", "19202711"));
+		bankAccounts.put(1, new Account("John", "Bishop", "19202711"));
+
+		//bankAccounts.entrySet().stream().filter(x -> x.getValue().getFirstName().equals("John")).count();
+
+		assertEquals(2, bankAccounts.entrySet().stream().filter(x -> x.getValue().getFirstName().equals("John")).count());
+	}
 }
