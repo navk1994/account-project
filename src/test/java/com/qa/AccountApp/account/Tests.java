@@ -16,7 +16,7 @@ public class Tests {
 	HashMap<Integer, Account> bankAccounts = new HashMap<Integer, Account>();
 
 	@Test
-	public void test() {
+	public void findFirstNamesTest() {
 
 		int counter = 0;
 
@@ -28,7 +28,7 @@ public class Tests {
 				counter++;
 			}
 
-		assertEquals(3, counter);
+		assertEquals(2, counter);
 	}
 
 }
