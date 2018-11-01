@@ -26,16 +26,16 @@ public class AccountSystem {
 		
 		obj.put(id,(bankAccounts.get(id).getFirstName() + " " + bankAccounts.get(id).getLastName() + " " + bankAccounts.get(id).getAccountNumber()));
 		
-		;
+		
 		System.out.println(obj);
 		
 	}
 	
 	
-	
-	
-	
-	
-	
-	
 }
+	
+	
+	
+	
+	
+
